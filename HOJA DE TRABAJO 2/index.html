@@ -1,0 +1,232 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HOJA DE TRABAJO 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Curso de Compiladores</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <div style="width: 75%; align-items: center; margin: 0 auto;">
+            <div name="carrousel1" id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img style="object-fit: cover;"
+                            src="https://programaenlinea.net/wp-content/uploads/2018/02/compiladores-1.jpg"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>¿Qué es un compilador?</h5>
+                            <p>Programa informático que traduce un programa escrito en un lenguaje de programación,
+                                definido
+                                «código fuente», a otro lenguaje de alto (COBOL, PASCAL, BASIC, C, etc.),</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img style="object-fit: cover;" src="https://aukera.es/blog/imagenes/regex-ecommerce.png"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>¿Qué es una expresión regular?</h5>
+                            <p>Son patrones utilizados para encontrar una determinada combinación de caracteres dentro
+                                de
+                                una cadena de texto.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://docplayer.es/docs-images/47/21755573/images/page_11.jpg" class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>¿Qué es una gramática formal?</h5>
+                            <p>Es una estructura lógico-matemática con un conjunto de reglas de formación que definen
+                                las
+                                cadenas de caracteres admisibles</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br><br><br>
+            <h1>PUNTOS CLAVE</h1>
+            <ol class="list-group list-group-light list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Lenguajes Formales</div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Operaciones con Expresiones Regulares y Lenguajes Formales</div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Definiciones Regulares</div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Gramáticas</div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div class="fw-bold">Analizador Sintáctico</div>
+                    </div>
+                </li>
+            </ol>
+            <br><br>
+            <h1>DESARROLLO DE TEMAS</h1>
+            <h2>1. LENGUAJES FORMALES</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Entidades_sint%C3%A1cticas_3.svg/1024px-Entidades_sint%C3%A1cticas_3.svg.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Qué es?</h5>
+                            <p class="card-text">Un lenguaje formal (en adelante, simplemente «lenguaje») es un
+                                conjunto,
+                                finito o infinito, de cadenas definidas sobre un alfabeto finito.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://3.bp.blogspot.com/-oXh58ZxlRuQ/UnXThayiNYI/AAAAAAAAARc/VC727MML2VA/s1600/Ejercicio10.JPG"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tipos de Lenguajes Formales</h5>
+                            <p class="card-text">
+                                Chomsky clasificó las gramáticas formales en estos tipos: <br>
+                                - Tipo 3: Gramáticas regulares que generan lenguajes
+                                regulares <br>
+                                - Tipo 2: Gramáticas incontextuales que generan lenguajes
+                                incontextuales <br>
+                                - Tipo 1: Gramáticas contextuales que generan lenguajes
+                                contextuales <br>
+                                - Tipo 0: Gramáticas libres que generan lenguajes sin ningún
+                                tipo de restricción</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://cdn.goconqr.com/uploads/media/image/13887510/desktop_ba2c4abd-37a2-4b62-9d3d-2aa5defd92c0.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Qué son Expresiones Regulares?</h5>
+                            <p class="card-text">Son patrones utilizados para encontrar una determinada combinación de
+                                caracteres dentro de una cadena de texto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/DFAexample.svg/1024px-DFAexample.svg.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">¿Qué son los Autómatas?</h5>
+                            <p class="card-text">Es un modelo matemático para una máquina de estado finito, en el que
+                                dada
+                                una entrada de símbolos, “salta” mediante una serie de estados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <h2>2. OPERACIONES CON EXPRESIONES REGULARES</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://compilandoconocimiento.files.wordpress.com/2017/01/captura-de-pantalla-2017-03-31-a-las-11-51-20-a-m.png?w=456&h=220"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Operación de unión</h5>
+                            <p class="card-text">La unión de dos lenguajes regulares es otro lenguaje regular. Se
+                                utiliza la
+                                operación de unión de conjuntos; así, para los distintos alfabetos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://compilandoconocimiento.files.wordpress.com/2017/01/captura-de-pantalla-2017-03-31-a-las-11-56-16-a-m.png?w=573&h=241"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Operación de Concatenación</h5>
+                            <p class="card-text">Es el conjunto de todos las cadenas que se crean de concatenar
+                                cualquiera
+                                de las cadenas de los dos lenguajes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://compilandoconocimiento.files.wordpress.com/2017/01/captura-de-pantalla-2017-03-31-a-las-12-29-25-p-m.png?w=788"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cerradura Kleene</h5>
+                            <p class="card-text">Es una operacion muy importante, esta te devuelve todos los strigns que
+                                pueden ser formados con al hacer la concatenacion de cualquier cantidad de strings de L.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://compilandoconocimiento.files.wordpress.com/2017/01/captura-de-pantalla-2017-03-31-a-las-12-29-39-p-m.png?w=409&h=199"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cerradura Positiva</h5>
+                            <p class="card-text">Es la unión de todos los lenguajes potencia de L, desde n=1 hasta
+                                infinito,
+                                que se pueden formar con el alfabeto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">INFORMACIÓN</h4>
+                <p>Esta página fue realizada con el Framework de Desarrollo Web, Bootstrap. <br>
+                    Kelvin José Gómez Morales 9490-19-480
+                </p>
+                <hr>
+                <p class="mb-0">HOJA DE TRABAJO 2 - DESARROLLO WEB</p>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+    </body>
+</body>
+
+</html>
