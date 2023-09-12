@@ -2,7 +2,7 @@
 
 * Cuenta con todas las validaciones descritas en el enunciado "Proyecto1.pdf"
 * Dentro del repositorio se encuentran los entregables (manuales)
-* El repositorio también cuenta con recursos extra, servirá como evidencia (coleccoines de MongoDB y coleccion de Requests en POSTMAN)
+* El repositorio también cuenta con recursos extra, servirá como evidencia (colecciones de MongoDB y coleccion de Requests en POSTMAN)
 
 ## Estudiantes
 
