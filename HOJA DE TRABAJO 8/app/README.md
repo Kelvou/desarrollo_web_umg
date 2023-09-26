@@ -9,5 +9,5 @@
 
 ## Observaciones
 
-* Los productos pueden tener dos o más categorías
+* Los productos pueden tener una o más categorías
 * Hay al menos 5 productos por categoría, aunque estos productos se repitan en algunas categorías
