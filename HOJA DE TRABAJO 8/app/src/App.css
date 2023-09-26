@@ -1,0 +1,30 @@
+.navbar-light {
+  background-color: #000000 !important;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .firma {
+  margin-top: 15px;
+}
+
+.firma {
+  color: white;
+}
+
+.firma2 {
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-custom {
+  background-color: black;
+  color: white;
+}
