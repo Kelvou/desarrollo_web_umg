@@ -1,0 +1,63 @@
+.navbar-light {
+  background-color: #000000 !important;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .firma {
+  margin-top: 15px;
+}
+
+.firma {
+  color: white;
+}
+
+.firma2 {
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-custom {
+  background-color: black;
+  color: white;
+}
+
+.white-text {
+  color: white;
+}
+
+.nav-link {
+  color: white; 
+  background-color: black;
+}
+
+.nav-link.active {
+  background-color: white;
+  color: black;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: black;
+}
+
+.nav-link.rounded-pill {
+  border-radius: 50px;
+  padding: 5px 15px;
+}
+
+.navbar-nav.ml-auto {
+  margin-left: auto;
+}
+
+/* App.css */
+.navbar-toggler-icon {
+  background-color: white; /* Cambia el color del icono a blanco */
+}
