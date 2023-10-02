@@ -12,7 +12,7 @@ function Pokemons() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const limit = 50; // Establece la cantidad de Pokémon a obtener
+                const limit = 50;
                 const requestOptions = {
                     method: 'GET',
                     redirect: 'follow',

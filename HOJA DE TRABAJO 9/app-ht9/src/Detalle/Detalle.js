@@ -18,16 +18,16 @@ function Detalle() {
                     redirect: 'follow',
                 };
 
-                // Utiliza el parámetro `pokemonId` en la URL para hacer el fetch a la criptomoneda específica
+
                 const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`, requestOptions);
 
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
 
-                const jsonData = await response.json(); // Parsea la respuesta JSON
+                const jsonData = await response.json();
 
-                // Actualiza los datos de la criptomoneda en el estado
+
                 setPokemonInfo(jsonData);
 
             } catch (error) {
@@ -36,8 +36,8 @@ function Detalle() {
         };
 
         fetchData();
-    }, [pokemonId]); // Asegúrate de que el efecto se ejecute cuando cambie `pokemonId`
-    // Verifica si pokemonInfo está definido y tiene las propiedades necesarias
+    }, [pokemonId]); 
+
     if (!pokemonInfo) {
         return <div className='container'>Cargando datos...</div>;
     }

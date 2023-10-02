@@ -5,7 +5,7 @@ function Info() {
     return (
         <div className='container'>
         <br/>
-          <div className='container text-center'> {/* Agrega la clase text-center al contenedor */}
+          <div className='container text-center'>
             <br />
             <h1>Información</h1>
             <p>Esta página fue hecha para el curso de desarrollo web - UMG</p>
